@@ -1,0 +1,18 @@
+.navbar-nav .nav-link{
+    color: whitesmoke;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+    text-decoration: overline;
+}
+
+.navbar-nav:last-child {
+    border-right: 1px solid white;
+}
+
+.separator {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
