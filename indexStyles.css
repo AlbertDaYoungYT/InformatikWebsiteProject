@@ -1,16 +1,17 @@
-.navbar-nav .nav-link{
-    color: whitesmoke;
-    transition: all 0.5s ease; /* Smooth hover effect */
+body {
+    background-color: #15151E;
 }
 
 .navbar-nav .nav-link {
     color: whitesmoke;
-    transition: all 0.5s ease; /* Smooth hover effect */
+    transition: all 0.5s ease;
 }
 
-.navbar-nav .nav-link .underlined {
-    text-decoration: underline;
+.navbar-nav .nav-link {
+    color: whitesmoke;
+    transition: all 0.5s ease;
 }
+
 
 .navbar-nav .nav-link:hover {
     color: red;
