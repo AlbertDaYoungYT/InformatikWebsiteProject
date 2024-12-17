@@ -1,10 +1,20 @@
 .navbar-nav .nav-link{
     color: whitesmoke;
+    transition: all 0.5s ease; /* Smooth hover effect */
+}
+
+.navbar-nav .nav-link {
+    color: whitesmoke;
+    transition: all 0.5s ease; /* Smooth hover effect */
+}
+
+.navbar-nav .nav-link .underlined {
+    text-decoration: underline;
 }
 
 .navbar-nav .nav-link:hover {
     color: red;
-    text-decoration: overline;
+    transform: scale(1.1);
 }
 
 .navbar-nav:last-child {
