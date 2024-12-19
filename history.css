@@ -33,40 +33,24 @@ body {
 
 .years-container {
     list-style-type: none;
-    /* Removes bullet points */
     padding: 0;
-    /* Removes default padding */
     margin: 0 11rem;
-    /* Centers the list horizontally */
     width: fit-content;
-    /* Adjusts the width to fit content */
 }
 
 .years-item {
     border: 2px solid black;
-    /* Black border */
     border-radius: 8px;
-    /* Rounded corners */
     padding: 10px 20px;
-    /* Adds inner spacing */
     margin: 10px 0;
-    /* Adds spacing between items */
     background-color: #FFEEF2;
-    /* Light gray background */
     color: #333;
-    /* Text color */
     font-size: 18px;
-    /* Larger text */
     font-family: Arial, sans-serif;
-    /* Clean font */
     text-decoration: none;
-    /* Removes underline from links */
     display: block;
-    /* Makes the anchor tag fill the li width */
     text-align: center;
-    /* Centers the text */
     transition: all 0.3s ease;
-    /* Smooth hover effect */
 
 }
 
@@ -74,12 +58,8 @@ body {
 
 .years-item:hover {
     background-color: #FFEEF2;
-    /* Slightly darker gray on hover */
     color: #E10600;
-    /* Darker text on hover */
     box-shadow: 0 4px 8px #E10600;
-    /* Adds shadow on hover */
     transform: scale(1.05);
-    /* Slightly enlarges the element */
 
 }
